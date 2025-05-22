@@ -4,7 +4,7 @@ let MEDIA_PATH
 if (config.media.env === 'production') {
   MEDIA_PATH = config.media.productionUrl
 } else {
-  MEDIA_PATH = config.media.localUrl
+  MEDIA_PATH = path.join(__dirname, '../../../')
 }
 
 module.exports = {
