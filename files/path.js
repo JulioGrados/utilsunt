@@ -4,7 +4,7 @@ let MEDIA_PATH
 if (config.media.env === 'production') {
   MEDIA_PATH = config.media.productionUrl
 } else {
-  MEDIA_PATH = path.join(__dirname, '../../../')
+  MEDIA_PATH = 'http://localhost:8001'
 }
 
 module.exports = {
