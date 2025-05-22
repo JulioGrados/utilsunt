@@ -13,6 +13,8 @@ const saveFile = async (file, route) => {
   const cleanName = file.name.toLowerCase().replace(/\s/g, '')
   console.log('cleanName', cleanName)
   const fileroot = route + '/' + file.md5 + '-' + cleanName
+  console.log('SERVER_PATH', SERVER_PATH)
+  console.log('fileroot', fileroot)
   try {
     await file.mv(SERVER_PATH + fileroot)
   } catch (error) {
