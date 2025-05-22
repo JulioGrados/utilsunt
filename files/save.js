@@ -6,7 +6,7 @@ let SERVER_PATH
 if (config.media.env === 'production') {
   SERVER_PATH = '/opt/media/uploads'
 } else {
-  SERVER_PATH = path.join(__dirname, '../../media/uploads')
+  SERVER_PATH = path.join(__dirname, '../../apiunt/uploads')
 }
 
 const saveFile = async (file, route) => {
