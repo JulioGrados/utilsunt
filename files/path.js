@@ -1,8 +1,8 @@
 const config = require('config')
 
 let MEDIA_PATH
-if (config.media.env === 'production') {
-  MEDIA_PATH = config.media.productionUrl
+if (process.env.NODE_ENV === 'production') {
+  MEDIA_PATH = 'https://api.incubaunt.com'
 } else {
   MEDIA_PATH = 'http://localhost:8001'
 }
