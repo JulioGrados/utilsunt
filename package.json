@@ -20,7 +20,7 @@
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "chalk": "^3.0.0",
-    "config": "git+https://julio_giampiere_grados:ATBBB3YvFHF6yaBRupfawdTvfS560D2BEDCE@bitbucket.org/devcodela/config-unt.git",
+    "config": "https://JulioGrados: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@github.com/JulioGrados/configunt.git",
     "crypto-js": "^4.2.0",
     "download": "^7.1.0",
     "js-cookie": "^2.2.1",
