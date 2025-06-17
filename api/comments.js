@@ -9,6 +9,7 @@ const listOpenComments = async params => {
 }
 
 const createComment = async data => {
+  console.log('data', data)
   return post('/comments', data, true)
 }
 
